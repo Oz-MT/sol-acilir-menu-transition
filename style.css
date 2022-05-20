@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+.container{
+    width: 15vw;
+    height: 26.8vh;
+    background-color: black;
+}
+
+.orange_part{
+    transform: translateX(-22vh);
+    transition: all 1.5s;
+}
+
 .top{
     display: flex;
     justify-content:space-between;
@@ -47,14 +58,8 @@
     font-size: 1.1rem;
 }
 
-.container{
-    position: absolute;
-    left: -10vw;
-    transition: all 1.5s;
-}
-
-.container:hover{
-    left: 0;
+.orange_part:hover{
+    transform: translateX(0);
 }
 
 
