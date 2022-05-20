@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: darkgoldenrod;
+    width: 12.5vw;
+    padding: 1rem;
+    color: white;
+}
+
+.top h1{
+    margin-left: 3rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.top i{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.bottom{
+    background-color: goldenrod;
+    width: 12.5vw;
+    height: 20vh;
+    padding: 1rem;
+}
+
+.bottom ul{
+    margin-left: 3rem;
+    margin-top: 0.4rem;
+}
+
+.bottom ul li {
+    list-style-type: none;
+    padding-bottom: 0.5rem;
+}
+
+.bottom ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.container{
+    position: absolute;
+    left: -10vw;
+    transition: all 1.5s;
+}
+
+.container:hover{
+    left: 0;
+}
+
+
+
+
+
+
