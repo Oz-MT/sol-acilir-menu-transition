@@ -60,6 +60,13 @@
 
 .orange_part:hover{
     transform: translateX(0);
+    /* transform:rotatey(180deg); */
+    
+}
+
+.orange_part:hover i{
+    transform: rotateY(180deg);
+    transition: 2s;
 }
 
 
